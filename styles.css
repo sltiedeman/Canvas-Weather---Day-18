@@ -1,0 +1,74 @@
+#wrapper{
+	margin: auto;
+	width: 800px;
+	text-align: center;
+}
+
+#input{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+input[type="text"]{
+	font-size: 16px;
+	text-align: center;
+}
+
+#weather-location{
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+#weather-canvas{
+	height: 250px;
+}
+
+#input-text {
+	height: 40px;
+}
+
+#submit-button {
+	margin-left: 20px;
+	width: 80px;
+	height: 40px;
+	color: white;
+	background: #428bca;
+	border-radius: 4px;
+}
+
+#current-temp{
+	position: relative;
+}
+
+#weather-info{
+	position: absolute;
+	top: 335px;
+	left: 49%;
+}
+
+#degree-symbol{
+	position: absolute;
+	top: 254px;
+	left: 53%;
+}
+
+#degree-symbol img{
+	height: 70px;
+	width: 35px;
+}
+
+
+
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+  padding-left: 10px;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  padding-left: 10px;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  padding-left: 10px;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  padding-left: 10px;
+}

@@ -4,6 +4,9 @@
 	text-align: center;
 }
 
+#header{
+
+}
 #input{
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -42,19 +45,37 @@ input[type="text"]{
 
 #weather-info{
 	position: absolute;
-	top: 335px;
+	top: 391px;
 	left: 49%;
 }
 
 #degree-symbol{
 	position: absolute;
-	top: 254px;
-	left: 53%;
+	top: 312px;
+	left: 52%;
 }
 
 #degree-symbol img{
 	height: 70px;
 	width: 35px;
+}
+
+#day0, #day1, #day2, #day3, #day4{
+	float: left;
+	width: 20%;
+	font-size: 12px;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+#temp0, #temp1, #temp2, #temp3, #temp4{
+	float: left;
+	width: 50%;
+}
+
+#icon0, #icon1, #icon2, #icon3, #icon4{
+	float: left;
+	width: 50%;
 }
 
 

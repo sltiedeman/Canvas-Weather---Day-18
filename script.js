@@ -6,8 +6,8 @@ $(document).ready(function($){
 	var endUrl = ',us&units=imperial&APPID='+apiKey;
 
 	//the submit function for when a user makes a search
-	$('#weather-submit').submit(function(){
-		event.preventDefault();
+	$('#weather-submit').submit(function(event){
+		event.preventDefault(event);
 		var zipCode = $('#input-text').val();
 		$('#input-text').val("");	
 		var weatherUrl = baseUrl + zipCode + endUrl;

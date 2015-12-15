@@ -22,6 +22,13 @@ input[type="text"]{
 	margin-bottom: 30px;
 }
 
+#weather-location img{
+	margin-top: 75px;
+	height: 300px;
+	width: 300px;
+}
+
+
 #weather-canvas{
 	height: 250px;
 }

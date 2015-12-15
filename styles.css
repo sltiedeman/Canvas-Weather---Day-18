@@ -2,10 +2,13 @@
 	margin: auto;
 	width: 800px;
 	text-align: center;
+	font-family: 'Lato', sans-serif;
 }
 
-#header{
-
+#header h1{
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 400;
 }
 #input{
 	margin-top: 30px;
@@ -23,7 +26,7 @@ input[type="text"]{
 }
 
 #weather-location img{
-	margin-top: 60px;
+	margin-top: 30px;
 	height: 200px;
 	width: 200px;
 	padding: 30px;

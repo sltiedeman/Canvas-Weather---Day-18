@@ -146,7 +146,12 @@ $(document).ready(function($){
 					$(icon).html(weatherIconHtml);
 					var tempDivHeight = $(temp).height();
 					$(icon).css("height", tempDivHeight + 'px');
-					$('#day' + i).css("border", "2px solid gray");
+					if(i%2==0){
+						$('#day' + i).css("border", "2px solid gray");
+					}else{
+						$('#day' + i).css("border-top", "2px solid gray");
+						$('#day' + i).css("border-bottom", "2px solid gray");
+					}
 					var d = new Date();
 					d = d.toString();
 					var dateArray = [];

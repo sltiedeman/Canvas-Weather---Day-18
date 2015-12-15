@@ -23,9 +23,10 @@ input[type="text"]{
 }
 
 #weather-location img{
-	margin-top: 75px;
-	height: 300px;
-	width: 300px;
+	margin-top: 60px;
+	height: 200px;
+	width: 200px;
+	padding: 30px;
 }
 
 

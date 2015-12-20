@@ -1,5 +1,10 @@
+function viewProject(){
+	document.getElementById("intro-page").style.display="none";
+}
+
 $(document).ready(function($){
 
+	
 	//get the api key for the weather site and other urls to enable us to get the weather data
 	var apiKey = 'eac2948bfca65b78a8c5564ecf91d00e';
 	var baseUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
